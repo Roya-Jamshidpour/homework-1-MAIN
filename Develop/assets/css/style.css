@@ -1,16 +1,17 @@
 
-/* the entire webpage traits */
+/* traits applied to entire webpage */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-
+/* background oclor for entire webpage */
 body {
     background-color: #d9dcd6;
 }
 
+/* header at top of the page with logo & links when clocked to take you to the section of page they refer to */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,15 +19,18 @@ body {
     color: #ffffff;
 }
 
+/* header at very top of webpage traits */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* company name in header traits */
+.seo h1 {
     color: #d9dcd6;
 }
 
+/*  */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -53,6 +57,7 @@ p {
     font-size: 16px;
 }
 
+/* large, first image on page */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,11 +67,13 @@ p {
     background-position: center;
 }
 
+/* tells images to move to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* tells images  to move to the right */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -155,6 +162,7 @@ p {
     color: #ffffff;
 }
 
+
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -164,33 +172,42 @@ p {
     color: #ffffff;
 }
 
+/* image within Search Engine Optimization box */
 .search-engine-optimization img {
     max-height: 200px;
+    float: left;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
+/*  */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* image within Online Reputation Management box */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+
+/* Online Reputation Management box traits*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* image within Social Media Marketing box */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*  */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* traits applied to whole footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -198,6 +215,7 @@ p {
     text-align: center;
 }
 
+/* larger text in footer */
 .footer h2 {
     font-size: 20px;
 }
