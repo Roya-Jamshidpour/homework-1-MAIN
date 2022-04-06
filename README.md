@@ -28,12 +28,12 @@ SO THAT our own site is optimized for search engines
 
 ```
 GIVEN a webpage meets accessibility standards
-WHEN I view the source code
+WHEN I view the source codeX
 THEN I find semantic HTML elementsX
 WHEN I view the structure of the HTML elements
 THEN I find that the elements follow a logical structure independent of styling and positioningX
 WHEN I view the icon and image elements
-THEN I find accessible alt attributes
+THEN I find accessible alt attributesX
 WHEN I view the heading attributesX
 THEN they fall in sequential order
 WHEN I view the title element
